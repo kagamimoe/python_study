@@ -19,3 +19,5 @@ def make(a, aim, b):
 b = []
 make(a, aim, b)
 print 'sdf'
+
+
