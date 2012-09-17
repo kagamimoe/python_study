@@ -1,0 +1,80 @@
+INSERT INTO  `g8`.`tutorial` (
+`user_id` ,
+`id` ,
+`step` ,
+`complete_time` ,
+`update_time` ,
+`record_time`
+)
+VALUES(
+'3',  '2',  '8',  '131477518', 
+CURRENT_TIMESTAMP ,  '131477498'
+),(
+'3',  '3',  '7',  '131477518', 
+CURRENT_TIMESTAMP ,  '131477498'
+),(
+'3',  '4',  '11',  '131477518', 
+CURRENT_TIMESTAMP ,  '131477498'
+),(
+'3',  '5',  '17',  '131477518', 
+CURRENT_TIMESTAMP ,  '131477498'
+),(
+'3',  '6',  '9',  '131477518', 
+CURRENT_TIMESTAMP ,  '131477498'
+),(
+'3',  '7',  '19',  '131477518', 
+CURRENT_TIMESTAMP ,  '131477498'
+),(
+'3',  '8',  '3',  '131477518', 
+CURRENT_TIMESTAMP ,  '131477498'
+);
+UPDATE  `g8`.`tutorial` SET  `step` =  '16',
+`complete_time` =  '131886497' WHERE  `tutorial`.`user_id` =3 AND  `tutorial`.`id` =1;
+
+
+
+修改所有食材数量：
+update  g8.item i  SET num=9999  where user_id=12 and type=1 ;
+
+
+循环修改：
+declare @i int
+set @i='133'
+while @i<'135'
+begin
+INSERT INTO  `g8`.`tutorial` (
+`user_id` ,
+`id` ,
+`step` ,
+`complete_time` ,
+`update_time` ,
+`record_time`
+)
+VALUES(
+'@i',  '2',  '8',  '131477518', 
+CURRENT_TIMESTAMP ,  '131477498'
+)
+
+set @i=@i+1
+
+end
+
+插入一个究极料理：
+INSERT INTO  `g8`.`cuisine` (
+`id` ,
+`user_id` ,
+`food` ,
+`exp` ,
+`game_id` ,
+`match_score` ,
+`seasoned` ,
+`price` ,
+`sp` ,
+`status` ,
+`update_time` ,
+`record_time`
+)
+VALUES (
+NULL ,  '4',  '741001',  '20',  '0',  '17250000',  '0',  '22',  '22',  '1', 
+CURRENT_TIMESTAMP ,  '1342143689'
+);
