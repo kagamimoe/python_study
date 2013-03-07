@@ -80,7 +80,7 @@ Email: kagamimoe@foxmail.com
 >## IT 技能 ##
 
 >Mantis:	     熟练	   12月	   
-TestDirector:	熟练	6月 
+TestDirector:	熟练	6月   
 TestLink:  熟练  12月  
 Java:	  一般	4月  
 SQL:  	  一般	6月  
