@@ -84,5 +84,5 @@ TestDirector:	熟练	6月
 TestLink:  熟练  12月  
 Java:	  一般	4月  
 SQL:  	  一般	6月  
-QTP:	      一般	1月 
+QTP:	      一般	1月   
 Android:   一般 2月  
